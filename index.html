@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#78805b">
+<title>Aakash & Sunidhi | Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cinematic envelope opening inspired by the supplied reference video:
+     textured envelope -> seal lifts -> triangular flap opens -> photo is revealed -> invitation expands. -->
+<div id="opening" class="opening">
+  <div class="opening-glow"></div>
+  <div class="envelope-scene" id="scene">
+    <div class="envelope-back">
+      <div class="envelope-paper"></div>
+    </div>
+
+    <div class="reveal-window">
+      <div class="inner-invitation">
+        <div class="inner-frame"></div>
+        <p>With the blessings of our families</p>
+        <h2>Aakash <span>&</span> Sunidhi</h2>
+        <div class="inner-ornament">❦</div>
+        <small>19 · 10 · 2026</small>
+      </div>
+    </div>
+
+    <div class="envelope-flap" id="flap">
+      <div class="flap-text">Aakash & Sunidhi</div>
+    </div>
+
+    <div class="envelope-front">
+      <div class="paper-grain"></div>
+      <div class="front-ornament">❦</div>
+    </div>
+
+    <button class="wax-seal" id="seal" aria-label="Open invitation">
+      <img src="assets/stamp-red.jpg" alt="Aakash and Sunidhi red wax wedding seal">
+    </button>
+  </div>
+
+  <div class="opening-hint" id="hint">
+    <span>Tap the seal</span>
+    <i></i>
+    <span>to open our invitation</span>
+  </div>
+</div>
+
+<main id="invite" class="invite" aria-hidden="true">
+  <section class="hero-photo">
+    <img src="assets/hero.jpg" alt="Aakash and Sunidhi walking together in the hills">
+    <div class="hero-overlay"></div>
+    <div class="hero-copy">
+      <p class="eyebrow light">With the blessings of our families</p>
+      <h1>Aakash <span>&</span> Sunidhi</h1>
+      <p class="script light">are getting married</p>
+      <div class="gold-line">✦</div>
+      <p class="hero-date">19 · 10 · 2026</p>
+      <p class="hero-place">Dehradun · Uttarakhand</p>
+      <a class="scroll-cue" href="#welcome" aria-label="Scroll down">↓</a>
+    </div>
+  </section>
+
+  <section id="welcome" class="welcome section">
+    <p class="eyebrow">Together with our families</p>
+    <div class="floral-rule"><span>❦</span></div>
+    <h2>A new chapter,<br><em>together.</em></h2>
+    <div class="parents">
+      <div><strong>Surender Rawat</strong></div>
+      <div class="parent-amp">&</div>
+      <div><strong>Rachana Rawat</strong></div>
+    </div>
+    <p class="welcome-copy">With hearts full of joy, we invite our beloved family and friends to join us as we celebrate love, togetherness, laughter and the beginning of our forever.</p>
+  </section>
+
+  <section class="photo-story">
+    <div class="story-image tall"><img src="assets/couple.jpg" alt="Aakash and Sunidhi together"></div>
+    <div class="story-copy">
+      <p class="eyebrow">Our moments</p>
+      <p class="script">from here to forever</p>
+      <p>Every journey becomes more beautiful when it is shared with the one you love.</p>
+    </div>
+    <div class="story-image wide"><img src="assets/umbrella.jpg" alt="Aakash and Sunidhi walking together under an umbrella"></div>
+  </section>
+
+  <section class="events section">
+    <div class="heading">
+      <p class="eyebrow">Save the dates</p><h2>Wedding Celebrations</h2>
+      <div class="floral-rule"><span>✿</span></div>
+    </div>
+    <article class="event">
+      <div class="day">18<span>OCT</span></div><div class="event-info">
+        <p class="event-label">Evening Celebration</p><h3>Cocktail Party</h3>
+        <p class="event-time">18 October 2026 · Evening</p>
+        <p class="venue">Hotel Arya Palace<br>GMS Road, Dehradun</p>
+        <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Arya+Palace%2C+GMS+Road%2C+Dehradun">⌖ Open in Google Maps</a>
+      </div>
+    </article>
+    <article class="event">
+      <div class="day">19<span>OCT</span></div><div class="event-info">
+        <p class="event-label">Auspicious Beginning</p><h3>Ganesh Puja</h3>
+        <p class="event-time">19 October 2026 · 10:00 AM</p>
+        <p class="venue">Hotel Arya Palace<br>GMS Road, Dehradun</p>
+        <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Arya+Palace%2C+GMS+Road%2C+Dehradun">⌖ Open in Google Maps</a>
+      </div>
+    </article>
+    <article class="event">
+      <div class="day">19<span>OCT</span></div><div class="event-info">
+        <p class="event-label">Haldi Ceremony</p><h3>Haldi</h3>
+        <p class="event-time">19 October 2026 · 11:00 AM</p>
+        <p class="venue">Hotel Arya Palace<br>GMS Road, Dehradun</p>
+        <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Arya+Palace%2C+GMS+Road%2C+Dehradun">⌖ Open in Google Maps</a>
+      </div>
+    </article>
+    <article class="event featured">
+      <div class="day">19<span>OCT</span></div><div class="event-info">
+        <p class="event-label">The Main Celebration</p><h3>Wedding</h3>
+        <p class="event-time">19 October 2026 · 7:00 PM</p>
+        <p class="venue">Viceroy Grand Hotel<br>GMS Road, Dehradun</p>
+        <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Viceroy+Grand+Hotel%2C+GMS+Road%2C+Dehradun">⌖ Open in Google Maps</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="message section">
+    <div class="message-card">
+      <div class="message-flower">❦</div>
+      <p class="eyebrow">A little note for our loved ones</p>
+      <h2>Dear Family & Friends,</h2>
+      <p>As we begin this beautiful new chapter of our lives, we feel truly blessed to have people like you beside us. Your love, laughter and memories have made our journey special, and it would mean the world to us to celebrate this precious moment together.</p>
+      <p>Please join us with your family, share in our happiness, bless us with your love, and make our wedding celebrations even more memorable.</p>
+      <p class="message-sign">With love,<br><span>Aakash & Sunidhi</span></p>
+    </div>
+  </section>
+
+  <section class="closing section">
+    <div class="closing-flower">❈</div>
+    <p class="eyebrow light">A celebration of love</p>
+    <h2>We can't wait<br>to celebrate with you.</h2>
+    <p class="closing-copy">Your presence will make our special day even more meaningful.</p>
+    <a class="rsvp" target="_blank" rel="noopener" href="https://wa.me/8285893484?text=Hello%20Aakash%20%26%20Sunidhi%2C%20I%20would%20love%20to%20RSVP%20for%20your%20wedding%20celebrations.">RSVP on WhatsApp</a>
+    <p class="phone">+91 82858 93484</p>
+    <div class="signature">Aakash <span>&</span> Sunidhi</div>
+  </section>
+  <footer>With love · 2026</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
