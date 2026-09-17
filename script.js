@@ -1,0 +1,1 @@
+const seal=document.getElementById("seal");const opening=document.getElementById("opening");const invite=document.getElementById("invite");seal.addEventListener("click",()=>{opening.classList.add("open");setTimeout(()=>{opening.classList.add("hide");invite.classList.add("show");window.scrollTo(0,0)},900);setTimeout(()=>opening.remove(),1800);});
